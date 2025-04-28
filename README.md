@@ -2,7 +2,8 @@
 
 # Ray Tracing Analysis with Machine Learning
 
-This notebook performs ray tracing simulations using the `optiland` library and then applies machine learning models (Random Forest and Logistic Regression) to analyze the ray tracing data.  The primary goal is to predict the success of a ray reaching the image plane based on its initial properties.
+This notebook performs ray tracing simulations using the `optiland` library and then applies machine learning models (Random Forest and Logistic Regression) to analyze the ray tracing data for various lens 
+.  The primary goal is to predict the success of a ray reaching the image plane based on its initial properties.
 
 ## Setup and Lens Definition
 
@@ -38,6 +39,8 @@ Two machine learning models are trained to predict ray success:
 1.  **Random Forest:** An ensemble learning method.
 
 2.  **Logistic Regression:** A linear model for binary classification.
+3.  **svm model for classifiy the data
+
 
 The performance of each model is assessed using standard metrics:
 
