@@ -1,4 +1,4 @@
-# prompt: create a readme file for the notebook which is this and we can also change the lens for various type of lenses we are using this in detail 
+ 
 
 # Ray Tracing Analysis with Machine Learning
 
